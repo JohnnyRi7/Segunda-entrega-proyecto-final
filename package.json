@@ -1,0 +1,20 @@
+{
+  "name": "segunda-entrega-proyecto-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyRi7/Segunda-entrega-proyecto-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnnyRi7/Segunda-entrega-proyecto-final/issues"
+  },
+  "homepage": "https://github.com/JohnnyRi7/Segunda-entrega-proyecto-final#readme"
+}

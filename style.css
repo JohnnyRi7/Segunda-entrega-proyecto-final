@@ -1,5 +1,9 @@
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 .body_index {
-  background-color: rgb(179, 221, 215);
+  background-color: rgb(26, 207, 177);
 }
 /* header */
 .sobre_mi {
@@ -18,7 +22,6 @@
   width: 100%;
   background: rgba(197, 196, 196, 0.753);
   color: rgb(12, 11, 11);
-
   margin-bottom: 1rem;
 }
 
@@ -64,15 +67,79 @@ h5 {
   color: rgb(0, 1, 0);
 }
 .text__contact h2 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: medium;
   width: 40%;
   height: 20%;
   text-align: center;
 }
-/* PORTFOLIO */
 
-li{
+/* FOOTER */
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.contact{
   list-style-type: none;
+}
+.site-footer h6 {
+  color: rgb(117, 125, 123);
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 3px;
+  letter-spacing: 0.5px;
+
+  
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+.copyright-text {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+ 
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 5px;
+
+}
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
 }

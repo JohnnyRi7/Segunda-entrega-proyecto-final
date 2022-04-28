@@ -1,0 +1,89 @@
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.body_index {
+  background-color: rgb(172, 211, 216);
+}
+.body_index .sobre_mi {
+  background-color: #fff;
+  padding-top: 0.1rem;
+}
+.body_index .img-fluid {
+  border-radius: 0.3rem;
+  margin-bottom: 1.15rem;
+}
+
+/* header */
+/* Footer */
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(197, 196, 196, 0.753);
+  color: rgb(12, 11, 11);
+  margin-bottom: 1rem;
+}
+.footer h2 {
+  color: rgb(202, 202, 202);
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.site-footer .site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer .contact {
+  list-style-type: none;
+}
+.site-footer .site-footer h6 {
+  color: rgb(117, 125, 123);
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 3px;
+  letter-spacing: 0.5px;
+}
+.site-footer .footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .site-footer .social-icons {
+  text-align: right;
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+
+  .site-footer .copyright-text,
+.site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
